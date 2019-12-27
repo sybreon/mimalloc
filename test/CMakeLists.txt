@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
+include (CTest)
 project(mimalloc-test C CXX)
 
 # Set default build type
