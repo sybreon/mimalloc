@@ -31,7 +31,7 @@ static bool   allow_large_objects = true;    // allow very large objects?
 static size_t use_one_size = 0;              // use single object size of N uintptr_t?
 
 
-#ifdef USE_STD_MALLOC
+#infdef USE_STD_MALLOC
 #define custom_malloc(s)      malloc(s)
 #define custom_realloc(p,s)   realloc(p,s)
 #define custom_free(p)        free(p)
